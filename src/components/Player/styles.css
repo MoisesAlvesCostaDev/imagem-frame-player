@@ -1,0 +1,64 @@
+.screen-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+.player-frame {
+  display: flex;
+  width: 500px;
+  height: 300px;
+}
+
+.player-controls {
+  margin-top: 10px;
+  width: 500px;
+  height: 100px;
+}
+
+.player-next-back {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar-border {
+  width: 440px;
+  height: 20px;
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar-indication {
+  height: 12px;
+  background-color: rgb(32, 32, 32);
+}
+
+.progress-time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-button-line {
+  margin-top: 10px;
+  width: 500px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.player-buttom {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+}
+
+.player-img {
+  width: 100%;
+}
